@@ -51,3 +51,34 @@ the code can be sure be made 100x better buuuuuut it's gotta do one thing once s
     - profit !!!! 
 
 --- 
+
+### Challange file types
+<details>
+<summary>/☠\ CODE /☠\ </summary>
+    <div class="center"> 
+        picoCTF{f1len@m3_m@n1pul@t10n_f0r_0b2cur17y_950c4fee}
+    </div>
+</details>
+
+- steps:
+    - /!\ this is tedious . . . 
+    - extract it thru [unshar]
+    - extract the result again thru [ar -x]
+    - extract that into a Bzip archive thru [cpio -i]
+    - extract it thru 7zip to get a Lzip
+    - change the extension to lz and thru winrar
+    - extract it to get an lz4 what the hell ?
+    - extract it thru [lzip -d] dont overwrite!
+    - u get something, extract it thru zip
+    - mv the result so u can see it
+    - yaaaay u got another archive !!
+    - u'd get another lzip
+    - open with winrar, ur prize is an xz
+    - archive
+    - u get a file with an ascii ??
+    - decode it here https://www.dcode.fr/ascii-code
+    - GG 
+    - go take a walk or train i dunno ur mind needs it :X
+
+---
+
