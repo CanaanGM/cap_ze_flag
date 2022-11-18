@@ -26,9 +26,9 @@ the code can be sure be made 100x better buuuuuut it's gotta do one thing once s
 ### Challange basic_mod2
 <details>
 <summary>/!\ CODE /!\ </summary>
-    ``` 
+    <div class="center"> 
         picoCTF{1NV3R53LY_H4RD_8A05D939}
-    ``` 
+    </div>
 </details>
 - steps:
     - /!\ there's a trick in the question so read carefully . . . 
