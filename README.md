@@ -25,7 +25,8 @@ the code can be sure be made 100x better buuuuuut it's gotta do one thing once s
 
 ### Challange basic_mod2
 <details>
-- picoCTF{1NV3R53LY_H4RD_8A05D939}
+<summary>/!\ CODE /!\ </summary>
+    `picoCTF{1NV3R53LY_H4RD_8A05D939}`
 </details>
 - steps:
     - /!\ there's a trick in the question so read carefully . . . 
