@@ -3,7 +3,12 @@ this repo is for challanges in https://play.picoctf.org/practice?originalEvent=7
 the code can be sure be made 100x better buuuuuut it's gotta do one thing once so ¯\/(°_o)/¯ . . .
 
 #### challange basic_file_exploit : 
-- picoCTF{M4K3_5UR3_70_CH3CK_Y0UR_1NPU75_68466E2F}
+<details>
+<summary> /☠\ CODE /☠\ </summary>
+    <div class="center"> 
+        picoCTF{M4K3_5UR3_70_CH3CK_Y0UR_1NPU75_68466E2F}
+    </div>
+</details>
 - steps:
     -  get their program and the source code
     - add an item / length
@@ -15,7 +20,12 @@ the code can be sure be made 100x better buuuuuut it's gotta do one thing once s
 ---
 
 ### Challange basic_mod1
-- picoCTF{R0UND_N_R0UND_B6B25531}
+<details>
+<summary>/☠\ CODE /☠\ </summary>
+    <div class="center"> 
+    picoCTF{R0UND_N_R0UND_B6B25531}
+    </div>
+</details>
 - steps:
     - read about cipher not cypher cause that will give u the 40k character (he's cool too) xD
         - https://sites.millersville.edu/bikenaga/number-theory/character-and-block-ciphers/character-and-block-ciphers.html
@@ -25,7 +35,7 @@ the code can be sure be made 100x better buuuuuut it's gotta do one thing once s
 
 ### Challange basic_mod2
 <details>
-<summary>/!\ CODE /!\ </summary>
+<summary>/☠\ CODE /☠\ </summary>
     <div class="center"> 
         picoCTF{1NV3R53LY_H4RD_8A05D939}
     </div>
