@@ -62,6 +62,7 @@ the code can be sure be made 100x better buuuuuut it's gotta do one thing once s
 
 - steps:
     - /!\ this is tedious . . . 
+    - open it with pestudio to see it's a shell file/script
     - extract it thru [unshar]
     - extract the result again thru [ar -x]
     - extract that into a Bzip archive thru [cpio -i]
