@@ -5,7 +5,7 @@ this repo is for challanges in https://play.picoctf.org/practice?originalEvent=7
 #### challange basic_file_exploit : 
 - picoCTF{M4K3_5UR3_70_CH3CK_Y0UR_1NPU75_68466E2F}
 steps:
--  get their program
+-  get their program and the source code
 - add an item / length
 - read the source code, realize what's at line 143
 - try to log it by giving it 0
