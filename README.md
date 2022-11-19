@@ -169,3 +169,18 @@ picoCTF{3nh4nc3d_d0a757bf}
 
 
 --- 
+
+
+### challange file-run-1
+
+<details>
+    <summary> </summary>
+    picoCTF{U51N6_Y0Ur_F1r57_F113_47cf2b7b}
+</details>
+
+- steps: 
+    - get the code, move it into ur VM 
+    - run it xD
+
+--- 
+
