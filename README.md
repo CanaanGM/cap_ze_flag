@@ -4,7 +4,7 @@ the code can be sure be made 100x better buuuuuut it's gotta do one thing once s
 
 i've already done Includes ; once while the teacher was talking and the other watching him, so i'm not gonna include it.
 
-#### challange basic_file_exploit : 
+#### challange basic_file_exploit (2nd): 
 <details>
 <summary> /☠\ CODE /☠\ </summary>
     <div class="center"> 
@@ -22,7 +22,7 @@ i've already done Includes ; once while the teacher was talking and the other wa
 
 ---
 
-### Challange basic_mod1
+### Challange basic_mod1 (3rd)
 <details>
 <summary>/☠\ CODE /☠\ </summary>
     <div class="center"> 
@@ -37,7 +37,7 @@ i've already done Includes ; once while the teacher was talking and the other wa
 
 ---
 
-### Challange basic_mod2
+### Challange basic_mod2 (4th)
 <details>
 <summary>/☠\ CODE /☠\ </summary>
     <div class="center"> 
@@ -54,7 +54,7 @@ i've already done Includes ; once while the teacher was talking and the other wa
 
 --- 
 
-### Challange file types
+### Challange file types (5th)
 <details>
 <summary>/☠\ CODE /☠\ </summary>
     <div class="center"> 
@@ -85,3 +85,65 @@ i've already done Includes ; once while the teacher was talking and the other wa
 
 ---
 
+### challange  CVE-XXXX-XXXX (6th)
+
+<details>
+<summary>/☠\ CODE /☠\ </summary>
+    <div class="center"> 
+        picoCTF{CVE-2021-34527}
+    </div>
+</details>
+
+- steps
+    - ask uncle google
+
+--- 
+
+### challange GDB Test Drive (7th)
+
+<details>
+<summary>/☠\ CODE /☠\ </summary>
+    <div class="center"> 
+        picoCTF{d3bugg3r_dr1v3_7776d758}
+    </div>
+</details>
+
+- steps
+    - follow instructions and debug the program
+
+--- 
+
+### challange buffer overflow (8th)
+
+<details>
+<summary>/☠\ CODE /☠\ </summary>
+    <div class="center"> 
+    picoCTF{ov3rfl0ws_ar3nt_that_bad_8ba275ff}
+    </div>
+</details>
+
+- steps:
+    - read the file, see the size limit
+    - enter the biggest number u think of 
+
+
+---
+
+### challange credstuff (9th)
+
+<details>
+<summary>/☠\ CODE /☠\ </summary>
+    <div class="center"> 
+    picoCTF{C7r1F_54V35_71M3}
+    </div>
+</details>
+
+- steps:
+    - get the files 
+    - load them into the script u've made
+    - combine them
+    - get the hashed code
+    - google it to know the algo for hashing
+    - decode it in python and print the result
+    - ???
+    - GG (script name is "leaking_passwords.py")
