@@ -475,6 +475,19 @@ picoCTF{700l1ng_r3qu1r3d_2bfe1a0d}
 
 ---
 
+### power cookie (33)
+
+<details>
+    <summary>/☠\ CODE /☠\</summary>
+picoCTF{gr4d3_A_c00k13_0d351e23}
+</details>
+
+- steps:
+    - crack the cokie for it is too old ! 
+
+
+---
+
 
 
 
