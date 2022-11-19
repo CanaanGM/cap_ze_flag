@@ -445,6 +445,19 @@ picoCTF{d30bfu5c4710n_f7w_5e14b257}
 
 ---
 
+### forbidden path (31)
+
+<details>
+    <summary>/☠\ CODE /☠\</summary>
+picoCTF{7h3_p47h_70_5ucc355_e5a6fcbc}
+</details>
+
+- steps:
+    - `../` ur way to the flag
+
+
+---
+
 
 
 
