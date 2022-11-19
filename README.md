@@ -147,3 +147,25 @@ i've already done Includes ; once while the teacher was talking and the other wa
     - decode it in python and print the result
     - ???
     - GG (script name is "leaking_passwords.py")
+
+---
+
+### challange enhance
+
+<details>
+<summary>/☠\ CODE /☠\ </summary>
+    <div class="center"> 
+picoCTF{3nh4nc3d_d0a757bf}
+    </div>
+</details>
+
+- steps:
+    - get the image
+    - open it in vscode
+    - get the code at the bottom
+    - copy it in python 
+    - ` "c o d e ".replace(" ", "") `
+    - copy it and paste it in the flag thingy
+
+
+--- 
