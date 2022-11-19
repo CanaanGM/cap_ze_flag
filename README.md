@@ -328,4 +328,18 @@ picoCTF{pl3as3_l3t_m3_1nt0_th3_saf3}
 
 ---
 
+### challange substitution0 (22)
+
+<details>
+    <summary>/☠\ CODE /☠\</summary>
+picoCTF{5ub5717u710n_3v0lu710n_357bf9ff}
+</details>
+
+- steps:
+    - visit uncle google, find [this](https://www.dcode.fr/monoalphabetic-substitution) 
+    - python to lower the alpha 
+    - got key!!
+
+---
+
 
