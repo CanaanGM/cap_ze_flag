@@ -299,4 +299,33 @@ picoCTF{WH3R3_D035_7H3_F3NC3_8361N_4ND_3ND_D00AFDD3}
 
 ---
 
+### challange patchme.py (21)
+
+<details>
+    <summary>/☠\ CODE /☠\</summary>
+picoCTF{p47ch1ng_l1f3_h4ck_21d62e33}
+</details>
+
+- steps:
+    - get the py file
+    - remove the checking and make it immediatly print the key xD 
+    - profit
+
+---
+
+### challange Safe opener (22)
+
+<details>
+    <summary>/☠\ CODE /☠\</summary>
+picoCTF{pl3as3_l3t_m3_1nt0_th3_saf3}
+</details>
+
+- steps:
+    - get the java source code
+    - modify the code so it decodes and prints the decoded message 
+    - ???  
+    - profit
+
+---
+
 
