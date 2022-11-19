@@ -248,4 +248,41 @@ picoCTF{3nh4nc3d_d0a757bf}
     - create a script (morse_decoder.py) and volla ~!
 ---
 
+### challange Sleuthkit intro (17)
+
+<details>
+    <summary>/☠\ CODE /☠\</summary>
+<tap>picoCTF{mm15_f7w!} </tap>
+</details>
+
+- steps:
+    - get the file -> unzip it 
+    - mmls disk.img -> find length -> get code !
+---
+
+### challange Packets primer (18)
+
+<details>
+    <summary>/☠\ CODE /☠\</summary>
+picoCTF{p4ck37_5h4rk_01b0a0d6}
+</details>
+
+- steps:
+    - get the file -> throw it in the VM -> wireshark 
+    - get code -> decode Hex ? ASCII ? pokemon ?? anyways python replace space . . . CODE ?!!
+        - https://www.dcode.fr/ascii-code
+---
+
+### challange Packets primer (19)
+
+<details>
+    <summary>/☠\ CODE /☠\</summary>
+picoCTF{C4n_Y0u_S33_m3_fully}
+</details>
+
+- steps:
+    - get the file -> throw it in the VM -> Atril document viewer . . . GG
+
+---
+
 
