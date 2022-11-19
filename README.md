@@ -217,7 +217,7 @@ picoCTF{3nh4nc3d_d0a757bf}
 </details>
 
 - steps:
-    - got to network tap 
+    - go to network tap 
     - log in
     - gg 
 ---
@@ -230,9 +230,22 @@ picoCTF{3nh4nc3d_d0a757bf}
 </details>
 
 - steps:
-    - got the file 
+    - get the file 
     - open it and ctr+f for pico
     - after reading the code yea i coulda used grep or findstr but i wanted to read the anthem anyways (￣o￣) . z Z . . .
+---
+
+### challange morse code (16)
+
+<details>
+    <summary>/☠\ CODE /☠\</summary>
+<tap>picoCTF{wh47_h47h_90d_w20u9h7} </tap>
+</details>
+
+- steps:
+    - get the file 
+    - look for how to decode a morse code in python, find a module
+    - create a script (morse_decoder.py) and volla ~!
 ---
 
 
