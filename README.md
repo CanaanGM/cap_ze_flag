@@ -508,6 +508,22 @@ picoCTF{50M3_3X7R3M3_1UCK_C85AF58A}
 
 ---
 
+### SQLLite (35)
+
+<details>
+    <summary>/☠\ CODE /☠\</summary>
+picoCTF{L00k5_l1k3_y0u_solv3d_it_ec8a64c7}
+</details>
+
+- steps:
+    - basic Sql syntax 
+    - `' OR 1=1;` in the pass field which tells lite that the first half can be right 
+    - inspect hidden `<p>` 
+    - get code ~ !
+
+
+---
+
 
 
 
