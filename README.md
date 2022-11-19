@@ -328,7 +328,7 @@ picoCTF{pl3as3_l3t_m3_1nt0_th3_saf3}
 
 ---
 
-### challange substitution0 (22)
+### challange substitution0 (23)
 
 <details>
     <summary>/☠\ CODE /☠\</summary>
@@ -342,7 +342,7 @@ picoCTF{5ub5717u710n_3v0lu710n_357bf9ff}
 
 ---
 
-### challange substitution1 (23)
+### challange substitution1 (24)
 
 <details>
     <summary>/☠\ CODE /☠\</summary>
@@ -355,5 +355,96 @@ picoctf{fr3qu3ncy_4774ck5_4r3_c001_6e0659fb}
     - got key!!
 
 ---
+
+### challange substitution2 (25)
+
+<details>
+    <summary>/☠\ CODE /☠\</summary>
+picoCTF{n6r4m_4n41y515_15_73d10u5_42ea1770}
+</details>
+
+- steps:
+    - use[this](https://planetcalc.com/8047/), calculate
+    - gaze upon the mess !!  
+    - getkeyfromthemessthatitgenerted!!
+
+---
+
+### challange transpositional-trial (26)
+
+<details>
+    <summary>/☠\ CODE /☠\</summary>
+picoCTF{7R4N5P051N6_15_3XP3N51V3_A9AFB178}
+</details>
+
+- steps:
+    - did manually thru python cause i couldn't figure out why it ignores the braces in the string
+    - get the code -> remove all spaces -> split at the count of 3 -> figure it out thru common sense . . . . 
+
+---
+
+### challange unpackme (27)
+
+<details>
+    <summary>/☠\ CODE /☠\</summary>
+picoCTF{175_chr157m45_85f5d0ac}
+</details>
+
+- steps:
+    - make the program print 
+    - ???
+    - profit !
+
+---
+
+### challange vigenere (28)
+
+<details>
+    <summary>/☠\ CODE /☠\</summary>
+picoCTF{D0NT_US3_V1G3N3R3_C1PH3R_2951a89h}
+</details>
+
+- steps:
+    - [dis](https://www.dcode.fr/vigenere-cipher) again 
+    - ???
+    - profit !
+
+---
+
+### challange bloat (29)
+
+<details>
+    <summary>/☠\ CODE /☠\</summary>
+picoCTF{d30bfu5c4710n_f7w_5e14b257}
+</details>
+
+- steps:
+    - make the check return (True) instead of exiting hahaahahaha
+
+
+---
+
+### buffer overflow 1 (30)
+
+<details>
+    <summary>/☠\ CODE /☠\</summary>
+picoCTF{d30bfu5c4710n_f7w_5e14b257}
+</details>
+
+- steps:
+    - get the vuln file 
+    - `readelf -a vuln | grep win` (win is the function that gets called if u go to the correct address)
+    - get the adress
+    - apply [little endian](https://www.section.io/engineering-education/what-is-little-endian-and-big-endian/) cause i saw a 32 buffer
+    - mess around in the terminal for 2 hrs
+        - figure out that tacking the [little endian](https://www.section.io/engineering-education/what-is-little-endian-and-big-endian/) adress at the end will give u wierd symbols
+        - find that there's a binary viewer in kali called `xxd`
+        - pipe the result to it, yey adresss 
+    - create a script to get u the key
+
+
+---
+
+
 
 
