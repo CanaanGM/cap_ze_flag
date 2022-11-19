@@ -488,6 +488,26 @@ picoCTF{gr4d3_A_c00k13_0d351e23}
 
 ---
 
+### RPS (34)
+
+<details>
+    <summary>/☠\ CODE /☠\</summary>
+picoCTF{50M3_3X7R3M3_1UCK_C85AF58A}
+</details>
+
+- steps:
+    - get the source code
+    - read source code 
+    - 5 hrs later 
+    - take each function and see what they do
+    - strstr return a substring ; meaning it will look for the winner in the string u entered
+    - play `rock\paper\scissors` 
+    - break game
+    - feel good -> key ~! 
+
+
+---
+
 
 
 
