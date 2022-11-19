@@ -350,7 +350,7 @@ picoctf{fr3qu3ncy_4774ck5_4r3_c001_6e0659fb}
 </details>
 
 - steps:
-    - visit uncle google, find [this](https://www.dcode.fr/monoalphabetic-substitution), press auto decode
+    - stay at [this](https://www.dcode.fr/monoalphabetic-substitution), press auto decode
     - python to lower the alpha -> replace (j) -> (q) in the key 
     - got key!!
 
