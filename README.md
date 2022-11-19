@@ -458,6 +458,23 @@ picoCTF{7h3_p47h_70_5ucc355_e5a6fcbc}
 
 ---
 
+### freash java (32)
+
+<details>
+    <summary>/☠\ CODE /☠\</summary>
+picoCTF{700l1ng_r3qu1r3d_2bfe1a0d}
+</details>
+
+- steps:
+    - use [JD-GUI](https://java-decompiler.github.io/)
+    - open the class 
+    - look for 10 mins cause `l` looked like a `1` (╯°□°）╯︵ ┻━┻
+    - drink green tea
+    - key
+
+
+---
+
 
 
 
