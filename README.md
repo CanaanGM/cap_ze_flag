@@ -171,7 +171,7 @@ picoCTF{3nh4nc3d_d0a757bf}
 --- 
 
 
-### challange file-run-1
+### challange file-run-1 (11)
 
 <details>
     <summary>/☠\ CODE /☠\</summary>
@@ -183,7 +183,7 @@ picoCTF{3nh4nc3d_d0a757bf}
     - run it xD
 
 --- 
-### challange file-run-2
+### challange file-run-2 (12)
 
 <details>
     <summary>/☠\ CODE /☠\</summary>
@@ -195,4 +195,44 @@ picoCTF{3nh4nc3d_d0a757bf}
     - run and greet it politly ヾ(•ω•`)o
 
 --- 
+
+
+### challange inspect HTML (13)
+
+<details>
+    <summary>/☠\ CODE /☠\</summary>
+<tap>picoCTF{1n5p3t0r_0f_h7ml_fd5d57bd}</tap>
+</details>
+
+- steps:
+    - inspect the HTML －O－
+
+---
+
+### challange local authority (14)
+
+<details>
+    <summary>/☠\ CODE /☠\</summary>
+<tap>picoCTF{j5_15_7r4n5p4r3n7_b0c2c9cb} </tap>
+</details>
+
+- steps:
+    - got to network tap 
+    - log in
+    - gg 
+---
+
+### challange lookey here (15)
+
+<details>
+    <summary>/☠\ CODE /☠\</summary>
+<tap>picoCTF{gr3p_15_@w3s0m3_2116b979} </tap>
+</details>
+
+- steps:
+    - got the file 
+    - open it and ctr+f for pico
+    - after reading the code yea i coulda used grep or findstr but i wanted to read the anthem anyways (￣o￣) . z Z . . .
+---
+
 
