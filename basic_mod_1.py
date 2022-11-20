@@ -1,4 +1,3 @@
-
 def decode_talker(trimmed_coded, cypher_alpha) -> list:
     """
     decodes the message
@@ -7,7 +6,7 @@ def decode_talker(trimmed_coded, cypher_alpha) -> list:
     decoded_items = []
     for character in trimmed_coded:
         char_code = int(character)
-        
+
         if char_code in range(26):
             decoded_items.append(cypher_alpha[char_code])
         elif char_code in range(26, 36):
@@ -16,22 +15,28 @@ def decode_talker(trimmed_coded, cypher_alpha) -> list:
             decoded_items.append("_")
     return decoded_items
 
+
 def get_decoded_message(decoded_items: list) -> str:
     """returns the decoded message"""
     decoded_text = ""
     for i in decoded_items:
-        decoded_text+= str(i)
+        decoded_text += str(i)
 
     return decoded_text
 
+
 if __name__ == "__main__":
-    basic_mod_1_message =\
-    "202 137 390 235 114 369 198 110 350 396 390 383 225 258 38 291 75 324 401 142 288 397".split(" ")
+    basic_mod_1_message = "202 137 390 235 114 369 198 110 350 396 390 383 225 258 38 291 75 324 401 142 288 397".split(
+        " "
+    )
 
-    coded_message_1 = [ f"{int(code) % 37}" for code in basic_mod_1_message]
-    
-    alphas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789' # this should be with the digits according to https://www.dcode.fr/base-36-cipher
-    cypher_alpha = {i:x for i,x in zip (range(36), alphas)}
+    coded_message_1 = [f"{int(code) % 37}" for code in basic_mod_1_message]
 
+    alphas = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"  # this should be with the digits according to https://www.dcode.fr/base-36-cipher
+    cypher_alpha = {i: x for i, x in zip(range(36), alphas)}
 
-    print("picoCTF{"+ get_decoded_message(decode_talker(coded_message_1,cypher_alpha))+"}")
+    print(
+        "picoCTF{"
+        + get_decoded_message(decode_talker(coded_message_1, cypher_alpha))
+        + "}"
+    )
