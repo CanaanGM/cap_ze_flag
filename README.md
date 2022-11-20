@@ -524,6 +524,30 @@ picoCTF{L00k5_l1k3_y0u_solv3d_it_ec8a64c7}
 
 ---
 
+### Sleuthkit Apprentice (36)
+
+<details>
+    <summary>/☠\ CODE /☠\</summary>
+picoCTF{by73_5urf3r_2f22df38}
+</details>
+
+- steps:
+    - get the file , unzip it  
+    - try to mount it like a normal image and dig thru the files, didn't work
+    - followed [this](https://dev.iachieved.it/iachievedit/exploring-img-files-on-linux/) to no avail
+    - google what the hell is a sleuthkit ?!
+    - start autopsy in kali
+    - load the image, create a new investigation . . . 
+    - select the biggest image cause that's the file system, `1` is boot `2` is swap
+    - Analyze -> keyword search for `picoCTF` . . . nothing, try `flag.txt`, found it but it's useless QAQ
+    - spend sometime looking
+    - try to file name search for `flag.txt` in `file analysis` tab . . . got a location!!
+    - export it . . . nothing o(≧口≦)o but we got a location which is `/3/root/my_folder`
+    - go there, export both flag files -> open in VScode -> Celebrate!!
+
+
+---
+
 
 
 
