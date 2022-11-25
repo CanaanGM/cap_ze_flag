@@ -566,7 +566,9 @@ picoCTF{L3arN_S0m3_5qL_t0d4Y_21c94904}
 
 <details>
     <summary>/☠\ CODE /☠\</summary>
+
 ![picoCTF{cu7_7h3_bl047_44f74a60}]("./images/Bbbbloat_picoCtf_challange.png")
+
 </details>
 
 - steps:
