@@ -574,7 +574,7 @@ picoCTF{cu7_7h3_bl047_44f74a60}
 
 - steps:
     - `file <file>` tells u the type of the file, this one is an `ELF 64` binary
-    - found (this)[https://reverseengineering.stackexchange.com/questions/3815/reversing-elf-64-bit-lsb-executable-x86-64-gdb]
+    - found [this](https://reverseengineering.stackexchange.com/questions/3815/reversing-elf-64-bit-lsb-executable-x86-64-gdb)
     - try to debug it thru `gdb <file>` -> `(gdb) info file` got the main func address `0x555555555160`
     - `(gdb) run` we got the app running
     - install and open (ghidra)[https://www.kali.org/tools/ghidra/]
