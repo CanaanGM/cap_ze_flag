@@ -548,6 +548,20 @@ picoCTF{by73_5urf3r_2f22df38}
 
 ---
 
+### SQL Direct (37)
+
+<details>
+    <summary>/☠\ CODE /☠\</summary>
+picoCTF{L3arN_S0m3_5qL_t0d4Y_21c94904}
+</details>
+
+- steps:
+    - connect to the instance thru the terminal
+    - `\dt` to show all tables
+    - Select the flag from there
+
+---
+
 
 
 
