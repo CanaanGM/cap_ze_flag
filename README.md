@@ -586,6 +586,21 @@ picoCTF{cu7_7h3_bl047_44f74a60}
 
 ---
 
+### search source (39)
+
+<details>
+    <summary>/☠\ CODE /☠\</summary>
+picoCTF{1nsp3ti0n_0f_w3bpag3s_8de925a7}
+
+![image | 200px](images/Bbbbloat_picoCtf_challange.png)
+
+</details>
+
+- steps:
+    - it was in *&$%@## styles.css in a comment what the hell
+    
+---
+
 
 
 
