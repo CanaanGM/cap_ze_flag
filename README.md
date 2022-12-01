@@ -1,6 +1,6 @@
 this repo is for challanges in https://play.picoctf.org/practice?originalEvent=70&page=1
 
-the code can be sure be made 100x better buuuuuut it's gotta do one thing once so ¯\/(°_o)/¯ . . .
+sure the code can be made 100x better buuuuuut it's gotta do one thing once so ¯\/(°_o)/¯ . . .
 
 i've already done Includes ; once while the teacher was talking and the other watching him, so i'm not gonna include it.
 
