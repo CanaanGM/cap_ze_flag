@@ -35,8 +35,4 @@ if __name__ == "__main__":
     alphas = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"  # this should be with the digits according to https://www.dcode.fr/base-36-cipher
     cypher_alpha = {i: x for i, x in zip(range(36), alphas)}
 
-    print(
-        "picoCTF{"
-        + get_decoded_message(decode_talker(coded_message_1, cypher_alpha))
-        + "}"
-    )
+    print(f"picoCTF{{{get_decoded_message(decode_talker(coded_message_1, cypher_alpha))}}}")

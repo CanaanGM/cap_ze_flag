@@ -37,8 +37,4 @@ if __name__ == "__main__":
     alphas = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
     cypher_alpha = {i: x for i, x in zip(range(1, 37), alphas)}
 
-    print(
-        "picoCTF{"
-        + get_decoded_message(decode_talker(coded_message_2, cypher_alpha))
-        + "}"
-    )
+    print(f"picoCTF{{{get_decoded_message(decode_talker(coded_message_2, cypher_alpha))}}}")
