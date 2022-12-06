@@ -599,6 +599,35 @@ picoCTF{1nsp3ti0n_0f_w3bpag3s_8de925a7}
 
 ---
 
+### RoboSans font (40)
+
+<details>
+    <summary>/☠\ CODE /☠\</summary>
+picoCTF{Who_D03sN7_L1k5_90B0T5_032f1c2b}
+
+</details>
+
+- steps:
+    - load the site into burpsuite
+    - look around 
+    - get the error "failed to connect to the site
+        -  ![image | 200px](images/burpheckup.png) 
+    - run to google
+    - 30 mins lator -put spongebob meme here- 
+    - land on [this](https://codewithhugo.com/importance-crawler-bot-block/) which says if u want to stop crawlers from crawling ur site add a 'robots.txt' file in which specify which endpoint are accessaple or not
+    - go to 'robots.txt'
+    - whom ever wrote this is taunting me huh
+    - see gibberish seperated by \n
+    - remember that lecture and how to recognize base64
+    - decode each in base64, remember the '-d' for next time xD
+        - ![image|200px](images/robosans.png)
+        - the first gives: `flag1.txtbase64:` so i guess we are onto something
+        - the second givs: `js/myfile.txt` GG
+    - get the code
+        - ![image|200px](images/robosans%20key.png)
+
+---
+
 
 
 
