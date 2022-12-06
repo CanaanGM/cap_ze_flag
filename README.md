@@ -605,6 +605,8 @@ picoCTF{1nsp3ti0n_0f_w3bpag3s_8de925a7}
     <summary>/☠\ CODE /☠\</summary>
 picoCTF{Who_D03sN7_L1k5_90B0T5_032f1c2b}
 
+![image|200px](images/robosans%20key.png)
+
 </details>
 
 - steps:
@@ -624,7 +626,7 @@ picoCTF{Who_D03sN7_L1k5_90B0T5_032f1c2b}
         - the first gives: `flag1.txtbase64:` so i guess we are onto something
         - the second givs: `js/myfile.txt` GG
     - get the code
-        - ![image|200px](images/robosans%20key.png)
+
 
 ---
 
